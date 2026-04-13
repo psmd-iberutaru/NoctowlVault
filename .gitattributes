@@ -1,0 +1,6 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Text files should be LF; Windows is more likely able to handle it than Linux CRLF.
+*.md text eol=lf
+*.txt text eol=lf
