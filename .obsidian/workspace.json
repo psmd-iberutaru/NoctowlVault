@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "fd5bc013af4ce369",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe805c561d439086",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2caa23696371ef2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recipes/Canned Pear Pie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Canned Pear Pie"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "86acbbadc32c173f",
+    "type": "split",
+    "children": [
+      {
+        "id": "82afbfb5ca223208",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2508b8708e6a192e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cdbe8d6f6aedcf64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Aviation",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bb2ddb987c187f10",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "31b7d7d5e3156542",
+    "type": "split",
+    "children": [
+      {
+        "id": "720b5b94b642984f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d16b3d44ea927ec5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for STAR Liner - Astronomical CCD Image Preprocessing"
+            }
+          },
+          {
+            "id": "bb313b40331abbf9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from STAR Liner - Astronomical CCD Image Preprocessing"
+            }
+          },
+          {
+            "id": "0a25ad96455c7519",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6e9a42de6c82a783",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "10fa9bda23029a44",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of STAR Liner - Astronomical CCD Image Preprocessing"
+            }
+          },
+          {
+            "id": "78751d78f26b142a",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Untitled/Nation - Silver River Voyagers.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Nation - Silver River Voyagers"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f2caa23696371ef2",
+  "lastOpenFiles": [
+    "Recipes/Cheesecake.md",
+    "Recipes/Spaghetti (Sauce).md",
+    "STAR Liner/STAR Liner - NTP Servers and Clients.md",
+    "Recipes/Sweet Potato Salad.md",
+    "Recipes/Shrimp and Spinach Linguine.md",
+    "STAR Liner/STAR Liner - Cooking Recipes.md",
+    "STAR Liner/STAR Liner - Firewalld Configurations.md",
+    "STAR Liner/STAR Liner - Maximal Astronomical Observing Time.md",
+    "STAR Liner/STAR Liner - Common Rsync Flags.md",
+    "STAR Liner/STAR Liner - Aviation Wind Triangle Derivation.md",
+    "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
+    "Recipes/Kresi Coffee.md",
+    "Recipes/Meatballs in Mushroom Gravy.md",
+    "Recipes/Meatloaf.md",
+    "Recipes/Broiled Sushi Rice.md",
+    "Recipes/Curry (Beef, Hamburger, or Shrimp).md",
+    "Recipes/Chili with Hotdog.md",
+    "Recipes/Beef Wellington.md",
+    "Untitled/Nation - Silver River Voyagers.md",
+    "STAR Liner/STAR Liner - Stationary Collection, Writing Instruments.md",
+    "STAR Liner/STAR Liner - Welcome Briefing.md",
+    "Sparrow.md",
+    "Untitled/Untitled.md",
+    "Templates/STAR Liner - Blog Template.md",
+    "Recipes/Spicy Coconut Soup.md",
+    "Recipes/Jambalaya.md",
+    "Untitled/Media/stellaris_ethics_militarist.png",
+    "Untitled/Media/stellaris_ethics_fanatic_xenophile.png",
+    "Untitled/Media/stellaris_civics_free_traders.png",
+    "Untitled/Media/stellaris_civics_trading_posts.png",
+    "Untitled/Media/stellaris_traits_nomadic.png",
+    "Untitled/Media/stellaris_traits_thrifty.png",
+    "Untitled/Media/stellaris_traits_void_dweller.png",
+    "Untitled/Media/stellaris_traits_fleeting.png",
+    "Untitled/Media/stellaris_traits_deviants.png",
+    "Untitled/Media/stellaris_traits_natural_engineers.png",
+    "Untitled/Media",
+    "Untitled",
+    "STAR Liner/Media",
+    "Untitled.canvas",
+    "Academic Leaflets",
+    "Daily Notes",
+    "STAR Liner",
+    "Templates/Untitled.base",
+    "Untitled/desktop.ini",
+    "Templates",
+    "Recipes"
+  ]
+}

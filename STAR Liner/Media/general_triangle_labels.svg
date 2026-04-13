@@ -1,0 +1,29 @@
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 650 400" height="100%" width="100%">
+    <g transform="matrix(1,0,0,1,-75,-50)">
+        <path style="fill:none;stroke:black;stroke-width:5px;" d="M541.6,162.4L500,100L440.007,144.994"></path>
+    </g>
+    <g transform="matrix(1,0,0,1,-75,-50)">
+        <path style="fill:none;stroke:black;stroke-width:5px;" d="M440.007,144.994L100,400L700,400L541.6,162.4"></path>
+    </g>
+    <g transform="matrix(1,0,0,1,382.491,-252.392)">
+        <text style="font-family:'NotoSerif', 'Noto Serif', serif;font-size:24px;" y="446.675px" x="158.279px">A</text>
+    </g>
+    <g transform="matrix(1,0,0,1,36.721,-256.675)">
+        <text style="font-family:'NotoSerif', 'Noto Serif', serif;font-size:24px;" y="446.675px" x="158.279px">B</text>
+    </g>
+    <g transform="matrix(1,0,0,1,198.26,-66.6754)">
+        <text style="font-family:'NotoSerif', 'Noto Serif', serif;font-size:24px;" y="446.675px" x="158.279px">C</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-50.7595,-119.407)">
+        <text style="font-family:'NotoSerif', 'Noto Serif', serif;font-size:24px;" y="446.675px" x="158.279px">a</text>
+    </g>
+    <path style="fill:none;stroke:black;stroke-width:2px;" d="M84.993,305.006C94.414,317.543 100,333.124 100,350"></path>
+    <g transform="matrix(1,0,0,1,374.795,-126.675)">
+        <text style="font-family:'NotoSerif', 'Noto Serif', serif;font-size:24px;" y="446.675px" x="158.279px">b</text>
+    </g>
+    <g transform="matrix(1,0,0,1,244.65,-302.242)">
+        <text style="font-family:'NotoSerif', 'Noto Serif', serif;font-size:24px;" y="446.675px" x="158.279px">c</text>
+    </g>
+    <path style="fill:none;stroke:black;stroke-width:2px;" d="M466.6,112.4C454.692,120.358 440.384,125 425,125C400.482,125 378.696,113.21 365.007,94.994"></path>
+    <path style="fill:none;stroke:black;stroke-width:2px;" d="M550,350C550,323.99 563.269,301.055 583.4,287.6"></path>
+</svg>
