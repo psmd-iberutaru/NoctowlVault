@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STAR Liner/STAR Liner - NTP Servers and Clients.md",
+                "file": "STAR Liner/STAR Liner - Creating a Obsidian-Quartz Website.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STAR Liner - NTP Servers and Clients"
+              "title": "STAR Liner - Creating a Obsidian-Quartz Website"
             }
           }
         ]
@@ -196,8 +196,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "2508b8708e6a192e",
+  "active": "1e546900bbc91575",
   "lastOpenFiles": [
+    "STAR Liner/STAR Liner - NTP Servers and Clients.md",
+    "_html/temp.txt",
     "_html",
     "_Build",
     "STAR Liner/STAR Liner - Cooking Recipes.md",
@@ -207,7 +209,6 @@
     "STAR Liner/STAR Liner - Aviation Wind Triangle Derivation.md",
     "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
     "STAR Liner/STAR Liner - Firewalld Configurations.md",
-    "STAR Liner/STAR Liner - NTP Servers and Clients.md",
     "STAR Liner/STAR Liner - Welcome Briefing.md",
     "STAR Liner/STAR Liner - Common SSH Flags.md",
     "STAR Liner/STAR Liner - Stationary Collection, Writing Instruments.md",
@@ -242,8 +243,6 @@
     "Untitled/Media",
     "STAR Liner/Media",
     "Untitled.canvas",
-    "Academic Leaflets",
-    "Daily Notes",
-    "STAR Liner"
+    "Academic Leaflets"
   ]
 }
