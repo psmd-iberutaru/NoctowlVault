@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: wiki.sparrow-orcinus.space
+  baseUrl: psmd-iberutaru.github.io/NoctowlVault/
   ignorePatterns:
     - Private
     - Templates
