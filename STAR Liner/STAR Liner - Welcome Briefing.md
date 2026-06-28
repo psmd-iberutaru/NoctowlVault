@@ -15,7 +15,7 @@ Hello, welcome aboard the Sparrow STAR Liner, a personal blog dedicated to any n
 
 Most other blogs might have very strong themes, but as you ride the STAR Liner, you will likely notice that the stations (articles) are scattered in the vast [[galaxy of knowledge]]. If something is interesting enough for us to construct a station, we probably will. But, this also means that some of these interesting things are very much not in the acronym themes of Space, Technology, or Aviation, so, you will find a lot of "other Randomness". Personally, it is more fun that way though. 
 
-We do not have any disillusions to try and (re)order this blog, as knowledge is interconnected and compartmentalizing it in folders, though possibly helpful, proves hard for blogs bordering between different subjects. Instead, we leverage links and [Obsidian.md](https://obsidian.md/). You are likely reading these blogs from the static site version that [[we have generated]] on [[NOCTOWL]]. As such, you can search for different key terms, or use the tags to navigate. The original notes are written in Markdown, and the conversion is done automatically so there may be the rare issue.
+We do not have any disillusions to try and (re)order this blog, as knowledge is interconnected and compartmentalizing it in folders, though possibly helpful, proves hard for blogs bordering between different subjects. Instead, we leverage links and [Obsidian.md](https://obsidian.md/). You are likely reading these blogs from the static site version that [we have generated using Quartz](STAR%20Liner%20-%20Creating%20a%20Obsidian-Quartz%20Website.md) on [[NOCTOWL]]. As such, you can search for different key terms, or use the tags to navigate. The original notes are written in Markdown, and the conversion is done automatically so there may be the rare issue.
 
 You will likely notice that the writing style of this blog is often conversational and probably a bit "dorky". It makes these posts a lot more easier to write. I know this style is not for everyone, and maybe it is cringe too, but, that is the beauty of blogs of Web 1.0. This blog is idiosyncratic; it has nerd references, uses odd language to have a theme (even if there probably should not be one), and just overall reflects the writer (who may not always be Sparrow).
 
@@ -27,4 +27,4 @@ Enjoy your adventure!
 
 ___
 Created: 2025-12-28
-Last Updated: 2025-12-28
+Last Updated: 2026-06-27

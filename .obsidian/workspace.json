@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/Nation - Stormwind Redoubt.md",
+                "file": "STAR Liner/STAR Liner - NTP Servers and Clients.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nation - Stormwind Redoubt"
+              "title": "STAR Liner - NTP Servers and Clients"
             }
           }
         ]
@@ -196,8 +196,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "1e546900bbc91575",
+  "active": "2508b8708e6a192e",
   "lastOpenFiles": [
+    "_html",
+    "_Build",
+    "STAR Liner/STAR Liner - Cooking Recipes.md",
+    "Recipes/Cheesecake.md",
+    "STAR Liner/STAR Liner - Creating a Obsidian-Quartz Website.md",
+    "Novastory/Nation - Silver River Voyagers.md",
+    "STAR Liner/STAR Liner - Aviation Wind Triangle Derivation.md",
+    "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
+    "STAR Liner/STAR Liner - Firewalld Configurations.md",
+    "STAR Liner/STAR Liner - NTP Servers and Clients.md",
+    "STAR Liner/STAR Liner - Welcome Briefing.md",
+    "STAR Liner/STAR Liner - Common SSH Flags.md",
+    "STAR Liner/STAR Liner - Stationary Collection, Writing Instruments.md",
+    "we have generated.md",
+    "STAR Liner/STAR Liner - Maximal Astronomical Observing Time.md",
+    "STAR Liner/STAR Liner - Common Rsync Flags.md",
     "Untitled/Media/stellaris_nation_stormwind_redoubt.png",
     "Untitled/_Untitled.md",
     "Untitled/Nation - Stormwind Redoubt.md",
@@ -221,24 +237,9 @@
     "Templates/Daily Notes Template.md",
     "Recipes/Jambalaya.md",
     "Recipes/Kresi Coffee.md",
-    "STAR Liner/STAR Liner - Maximal Astronomical Observing Time.md",
-    "STAR Liner/STAR Liner - Astronomical CCD Image Preprocessing.md",
     "Recipes/Sweet Potato Salad.md",
     "Recipes/Spicy Coconut Soup.md",
-    "Recipes/Spaghetti (Sauce).md",
-    "Recipes/Meatloaf.md",
-    "Recipes/Meatballs in Mushroom Gravy.md",
-    "Recipes/Furikake Baked Salmon.md",
-    "Recipes/Grilled Salmon with Vanilla Balsamic Butter Sauce.md",
-    "Recipes/Cheesecake.md",
-    "Recipes/Curry (Beef, Hamburger, or Shrimp).md",
-    "Recipes/Canned Pear Pie.md",
-    "STAR Liner/STAR Liner - NTP Servers and Clients.md",
-    "Recipes/Shrimp and Spinach Linguine.md",
-    "STAR Liner/STAR Liner - Cooking Recipes.md",
-    "STAR Liner/STAR Liner - Firewalld Configurations.md",
     "Untitled/Media",
-    "Untitled",
     "STAR Liner/Media",
     "Untitled.canvas",
     "Academic Leaflets",

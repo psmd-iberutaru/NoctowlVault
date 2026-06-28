@@ -1,9 +1,10 @@
 ---
-date: "2026-02-26"
+date: 2026-02-26
 author: Sparrow
 tags:
   - StarLiner
   - Blog
+  - Tutorial
 ---
 
 Welcome aboard the [[STAR Liner/STAR Liner - Welcome Briefing|Sparrow STAR Liner]]! A blog where we take a trackless voyage across Space, Technology, Aviation, and other Randomness. Stops are scattered, and we do not have many stations, but we hope you enjoy where you disembark.
@@ -15,12 +16,14 @@ It would be redundant to explain a lot about the network time protocol (NTP), th
 
 Typically, a computer will periodically query a NTP server to synchronize the times between it and all other computers. The NTP server provided is often a load-balanced pool of NTP servers, typically dependent on the operating system. We provide a very small list of public time servers which are used.
 
-| Scope                                                                                                                                                     | Address               |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| [Microsoft Windows](https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/Windows-Time-Service-Tools-and-Settings?tabs=config) | `time.windows.com`    |
-| Apple MacOS                                                                                                                                               | `time.apple.com`      |
-| [Debian Linux](https://wiki.debian.org/Services/NTP%20Pool%20(network%20time%20protocol))                                                                 | `debian.pool.ntp.org` |
-| [NTP Pool Project](https://www.ntppool.org/en/)                                                                                                           | `pool.ntp.org`        |
+| Scope                                                                                                                                                     | Address                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| [Microsoft Windows](https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/Windows-Time-Service-Tools-and-Settings?tabs=config) | `time.windows.com`          |
+| Apple MacOS                                                                                                                                               | `time.apple.com`            |
+| [Debian Linux](https://wiki.debian.org/Services/NTP%20Pool%20(network%20time%20protocol))                                                                 | `debian.pool.ntp.org`       |
+| [NTP Pool Project](https://www.ntppool.org/en/)                                                                                                           | `pool.ntp.org`              |
+| Sparrow Servers                                                                                                                                           | `ntp.sparrow-orcinus.space` |
+
 Although these servers provide the time quite accurately, there is no guarantee that more corporate servers are correctly synchronized to each other. Thus, computers using different servers may have different times. Practically, this is irrelevant as it can easily be assumed that all NTP-based servers reference NTP Stratum 0 sources which (by the core assumption of NTP) are all synchronized to each other. The aforementioned problems would really only account for a few to tens of seconds asynchronous offset.
 
 Creating, hosting, and using one's own timeserver is mostly for learning, fun, and the occasional helping of the NTP Pool project itself. Of course, using one's own timeserver also provides more control for the more security minded person. Some large organizations set up their own time servers to ensure that there is not excessive load placed on the NTP system as a whole, and to the most minor of degrees, we do so here as well.
@@ -57,7 +60,7 @@ In order to configure `timesyncd`, we need to add our time servers to the config
 
 ```systemd
 [Time]
-NTP=ntp.digiultsparrow.space
+NTP=ntp.sparrow-orcinus.space
 FallbackNTP=time.nist.gov
 RootDistanceMaxSec=5
 PollIntervalMinSec=32
@@ -97,10 +100,10 @@ In order to configure `chrony`, we need to add our time servers to the configura
 To add a new server to the list of NTP servers, you can add a line in the configuration file in the right area:
 ```txt
 # If a single server...
-server ntp.digiutlsparrow.space iburst
+server ntp.sparrow-orcinus.space iburst
 
 # ...or if a pool of servers.
-pool ntp.digiultsparrow.space iburst maxsources 4
+pool ntp.sparrow-orcinus.space iburst maxsources 4
 ```
 
 For NTP pool servers, `maxsources` sets the maximum number of sources that can be used from the pool, the default value is 4.
@@ -134,7 +137,7 @@ w32tm /stripchart /computer:ntp.digiultsparrow.space /samples:5 /dataonly
 
 You can then configure the NTP servers used with the following command, where `/manualpeerlist` is a space-separated list of the NTP servers that you want to add.
 ```powershell
-w32tm /config /manualpeerlist:"ntp.digiultsparrow.space" /syncfromflags:manual /update
+w32tm /config /manualpeerlist:"ntp.sparrow-orcinus.space" /syncfromflags:manual /update
 ```
 
 ## Mobile Android / Apple iOS
@@ -146,7 +149,7 @@ w32tm /config /manualpeerlist:"ntp.digiultsparrow.space" /syncfromflags:manual /
 
 Here, we describe the process of creating and hosting an NTP server. There are two main methods, via `ntpd`/`ntpsec` or via `chrony`. These tutorials describe the creation of a downstream stratum 2 or higher server. As such, we do not deal with the integration of primary sources of time here like GPS or atomic clocks, for that, see [[primary ntp server]]. 
 
-We typically use upstream NTP [stratum 1 servers](https://support.ntp.org/Servers/StratumOneTimeServers) or [stratum 2 servers](https://support.ntp.org/Servers/StratumTwoTimeServers) . You can choose your own servers, and I generally suggest [stratum 2 servers](https://support.ntp.org/Servers/StratumTwoTimeServers), as to alleviate the load from stratum 1 servers. This is the server list I usually use to support `ntp.digiultsparrow.space`:
+We typically use upstream NTP [stratum 1 servers](https://support.ntp.org/Servers/StratumOneTimeServers) or [stratum 2 servers](https://support.ntp.org/Servers/StratumTwoTimeServers) . You can choose your own servers, and I generally suggest [stratum 2 servers](https://support.ntp.org/Servers/StratumTwoTimeServers), as to alleviate the load from stratum 1 servers. This is the server list I usually use to support `ntp.sparrow-orcinus.space`:
 ```txt
 server time-b.nist.gov             iburst
 server tick.usno.navy.mil          iburst
@@ -180,9 +183,15 @@ nano /etc/ntpsec/ntp.conf
 
 In these files, we need to set the upstream servers which we will fetch the time from need to be configured. They should be open access servers. As I frequent the United States, I personally use the following servers.
 ```txt
-server time-a.nist.gov             iburst
+server time-b.nist.gov             iburst
 server tick.usno.navy.mil          iburst
 server tock.usno.navy.mil          iburst
+
+server sundial.columbia.edu        iburst
+server chronos2.umt.edu            iburst
+server ntp-01.caltech.edu          iburst
+server rolex.usg.edu               iburst
+server ns.nts.umn.edu              iburst
 ```
 
 We also need to ensure that the server cannot be used in NTP reflection attacks. This can be done by having the following restriction lines present in the configuration file.

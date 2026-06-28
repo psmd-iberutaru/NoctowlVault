@@ -8,7 +8,7 @@ ___
 # Silver River Voyagers
 **Discord Username:** Potchama / Sparrow
 
-![](stellaris_silver_river_voyagers.png)
+![](stellaris_nation_silver_river_voyagers.png)
 
 ___
 # History

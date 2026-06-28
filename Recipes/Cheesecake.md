@@ -8,7 +8,7 @@ This recipe is a basic cheesecake recipe; nothing too fancy here. Although this 
 
 **Serving Size:** 8
 #### Source
-This recipe is transcribed from [Easy Cheesecake Recipe | King Arthur Baking](https://www.kingarthurbaking.com/recipes/easy-cheesecake-recipe), archived [here]([Easy Cheesecake Recipe | King Arthur Baking](https://web.archive.org/web/20260412033430/https://www.kingarthurbaking.com/recipes/easy-cheesecake-recipe)).
+This recipe is transcribed from [Easy Cheesecake Recipe | King Arthur Baking](https://www.kingarthurbaking.com/recipes/easy-cheesecake-recipe), archived [here](https://web.archive.org/web/20260412033430/https://www.kingarthurbaking.com/recipes/easy-cheesecake-recipe).
 
 # Ingredients
 Crust:
