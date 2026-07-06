@@ -23,6 +23,9 @@ git fetch --all
 git reset --hard origin/main
 git clean -fd
 
+# We only care about publishing the pages on the publish branch.
+git switch publish
+git rebase main
 
 # Install the correct Node.JS version.
 
