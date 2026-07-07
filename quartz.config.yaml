@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Sparrow Wiki
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: psmd-iberutaru.github.io/NoctowlVault/
+  baseUrl: wiki.sparrow-orcinus.space
   ignorePatterns:
     - Private
     - Templates
@@ -16,9 +16,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Cormorant
+      body: Noto Serif
+      code: Courier Prime
     colors:
       lightMode:
         light: "#faf8f8"
@@ -225,8 +225,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Main Page: https://www.sparrow-orcinus.space
+        Github: https://github.com/psmd-iberutaru/NoctowlVault
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
