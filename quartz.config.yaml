@@ -12,6 +12,7 @@ configuration:
     - Private
     - Templates
     - .obsidian
+    - .trash
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
