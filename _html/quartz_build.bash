@@ -23,6 +23,9 @@ git fetch --all
 git reset --hard origin/main
 git clean -fd
 
+# We only care about publishing the pages on the publish branch.
+git switch publish
+git rebase main
 
 # Install the correct Node.JS version.
 
@@ -81,4 +84,9 @@ rsync -avhzP /home/sparrow/Quartz/public/ /home/sparrow/NoctowlVault/_html/
 
 # Attempt to push the results to the GitHub.
 cd /home/sparrow/NoctowlVault/
+git add .
+git commit -m "Quartz build $(date '+%Y-%m-%d')"
 git push
+
+# Get back to the main branch.
+git switch main
