@@ -1,0 +1,1 @@
+Welcome, this is the personal wiki of Kenji Emerson (Sparrow). The search bar, and the sidebar are the primary means of navigation. 

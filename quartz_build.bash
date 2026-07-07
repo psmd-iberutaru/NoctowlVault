@@ -84,4 +84,9 @@ rsync -avhzP /home/sparrow/Quartz/public/ /home/sparrow/NoctowlVault/_html/
 
 # Attempt to push the results to the GitHub.
 cd /home/sparrow/NoctowlVault/
+git add .
+git commit -m "Quartz build $(date '+%Y-%m-%d')"
 git push
+
+# Get back to the main branch.
+git switch main
